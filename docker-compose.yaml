@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  go:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: kramerscs/codeeducation:latest
+    container_name: codeeducation
